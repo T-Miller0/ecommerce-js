@@ -54,3 +54,4 @@ ShoppingCart.prototype.addVoucher = function (voucher) {
     this.applyVoucher(voucher, categoryFound)
   }
 };
+const shoppingCart = new ShoppingCart();
