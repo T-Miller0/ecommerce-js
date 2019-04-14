@@ -2,10 +2,12 @@ describe("Store", function() {
   let newStore;
 
   beforeEach(function() {
-    newStore = new Store();
+    store = new Store();
   })
 
   it("has stock length of one", function() {
-    expect(newStore.stock.length).toEqual(1)
+    expect(store.stock.length).toEqual(1)
   })
+
+
 })
