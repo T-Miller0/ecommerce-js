@@ -11,35 +11,35 @@ To run the tests copy the SpecRunner.htmml file path into the browser
 
 # Built with
 Javascript
-Jasmine
+Jasmine  
 Jquery
 
 # User Stories
 
-As a User
-So I can purchase a product
+As a User  
+So I can purchase a product  
 I would like to add a product to my cart
 
-As a User
-If I no longer want a product
+As a User  
+If I no longer want a product  
 I would like to remove a product from my cart
 
-As a User
-So I know how much I am spending
+As a User  
+So I know how much I am spending  
 I would like my cart total
 
-As a User
-I would like to know if I qualify for a £15 voucher
+As a User  
+I would like to know if I qualify for a £15 voucher  
 I would like to see the voucher applied
 
-As a User
-I would like to know if I can qualify for a £10 voucher
+As a User  
+I would like to know if I can qualify for a £10 voucher  
 I would like to see the voucher applied
 
-As a User
-I would like to know if I can apply a £5 voucher
+As a User  
+I would like to know if I can apply a £5 voucher  
 I would like to see the voucher applied
 
-As a User
-I would like to know I enter an invalid voucher
+As a User  
+I would like to know I enter an invalid voucher  
 I would like a message telling me
