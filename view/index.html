@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shop</title>
+  </head>
+  <script src="../src/Store.js"></script>
+  <script src="../src/ShoppingCart.js"></script>
+  <body>
+    <h1>ShoppingCart</h1>
+    <p id= 'shoppingCartTotal'></p>
+    <ul id='item'>
+      <li id='desciption'></li>
+      <li id='price'></li>
+      <button type="button" name="button" id='plus' onclick="shoppingCart.addToCart(cartTotal, this)">+</button>
+    </ul>
+
+
+  <script>
+    console.log(shoppingCart);
+    let cartTotal = document.getElementById('shoppingCartTotal');
+    let descp = document.getElementById('desciption');
+    let price = document.getElementById('price');
+    cartTotal.innerHTML = shoppingCart.cart.length;
+    descp.innerHTML = store.stock[0].productName;
+    price.innerHTML = store.stock[0].price;
+  </script>
+  </body>
+
+
+  </html>
