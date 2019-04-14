@@ -6,7 +6,7 @@ describe("Store", function() {
   })
 
   it("has stock length of one", function() {
-    expect(store.stock.length).toEqual(1)
+    expect(store.stock.length).toEqual(13)
   })
 
 

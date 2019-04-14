@@ -42,8 +42,6 @@ ShoppingCart.prototype.applyVoucher = function (voucher, categoryFound) {
     }
 };
 
-
-
 ShoppingCart.prototype.addVoucher = function (voucher) {
   let categories = this.cart.map(item => {return item.category})
   let categoryFound = function() {
